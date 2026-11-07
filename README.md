@@ -78,5 +78,5 @@ To debug step-by-step using GDB:
 * **Shift-Left Testing**: Fast, automated, and hardware-independent firmware verification via QEMU simulation before physical deployment.
 * **Bare-Metal (`no_std`)**: Direct register control, custom memory mapping, and low-level systems programming.
 
-📄 License
+## 📄 License
 Distributed under the GPLv3 License. See LICENSE for more information.
