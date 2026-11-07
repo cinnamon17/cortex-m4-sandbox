@@ -1,0 +1,17 @@
+[workspace]
+members = [
+    "projects/*"
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["cinnamon17@lify.win"]
+license = "GPL-3.0-or-later"
+
+[workspace.dependencies]
+cortex-m = { version = "0.7", features = ["critical-section-single-core"] }
+cortex-m-rt = "0.7"
+nrf52833-hal = "0.16"
+panic-halt = "0.2"
